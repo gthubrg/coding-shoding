@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+
+#define ll long long
+
+using namespace std;
+ 
+void solve()
+{
+
+}
+int main()
+{
+    ios_base::sync_with_stdio(0); 
+    cin.tie();
+
+    int i = 1;
+    int t;
+    cin >> t;
+    while(t--){
+     cout << "Case #" << i << ": ";
+        solve();
+        i++;
+    }
+	
+	solve();
+    return 0;
+}
+
+solve:~ g++ -Wall -std=c++14 main.cpp && a
+
+
+solve:~ g++ -Wall -std=c++14 main.cpp && a && input.txt && output.txt
