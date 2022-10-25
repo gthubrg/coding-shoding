@@ -24,6 +24,8 @@ for i in range(3):
         b=0
         break
 if b != 0:
-    print("YES\n50")
+    print("YES")
+    print(((points[len(points)-1][0]-points[0][0]))**2+((points[len(points)-1][1]-points[0][1]))**2+((points[len(points)-1][2]-points[0][2]))**2)
+    
 else:
     print("NO")
